@@ -9,11 +9,6 @@ body {
 
 /* HEADER */
 
-header {
-	background-color: red;
-}
-
-
 
 
 .container {
@@ -24,9 +19,12 @@ header {
 	position:relative;
 }
 
+h1 {
+	font-size: 20px;
+}
 
-.logo-main {
-	margin:0 auto;
+.logo {
+	width: 150px;
 }
 
 
@@ -40,8 +38,9 @@ header {
 
 
 section {
-	display: inline-flex;
-	margin: 50px 0 0 8%;
+	display:flex;
+	flex:1 1;
+	justify-content: space-around;
 }
 
 span {
@@ -51,7 +50,10 @@ span {
 .formulaire {
 	background-color: white;
 	border: 1px solid #cccccc;
+}
 
+#envoyer {
+	margin-top: 3px;
 }
 
 .btn {
@@ -60,6 +62,10 @@ span {
 	padding: 5px;
 	border-radius:4px;
 }
+
+
+/*Description et contact*/
+
 
 .description {
 	margin-top: 40px;
@@ -72,14 +78,11 @@ span {
 .centre {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	margin-left: 8%;
 }
 
-#envoyer {
-	margin-top: 3px;
+.contact {
+	margin-top: 40px;
 }
-
 
 
 
@@ -94,12 +97,16 @@ span {
 
 .nav-menu {
 	display:inline;
-	text-align: center;
+	text-align: right;
+}
+
+.nav-menu ul {
+	margin: 0;
 }
 
 .nav-menu ul li{
 	display: inline-block;
-	padding: 8px 18px;
+	padding: 10px 30px 0 0px;
 }
 
 .nav-menu i {
@@ -116,50 +123,7 @@ span {
 	padding: 10px 15px;
 	border-radius: 50px;
 	margin-top: 5px;
-	margin-left: 200px;
-}
-
-
-
-
-
-
-/*Produits Stars : 2 */
-
-
-
-
-
-
-
-.star-container {
-	width:auto;
-	background-color: transparent;
-	display:inline-block;
-	
-	/* arrangements persos*/
-	margin-top:10px;
-	margin-left: -150px;
-}
-
-.star-product1 {
-	background-color: transparent;
-	width: 350px;
-
-	float:left;
-	/* arrangement perso*/
-	margin-right:125px;
-}
-
-.star-text {
-	background-color: transparent;
-	font-size: smaller;
-}
-
-.star-product2 {
-	background-color: transparent;
-	width: 200px;
-	float: left;
+	margin-left: 00px;
 }
 
 
@@ -178,16 +142,14 @@ span {
 
 
 .right-menu {
-	width:250px;
+	width:230px;
 	height:300px;
+	padding-left: 10px;
 	background-color: transparent;
 	border-left: 1px solid gray;
 	line-height: 25px;
-	float: right;
-/*	text-align: right;*/
-	/* arrangements persos*/
 	margin-top:15px;
-	margin-right: 75px;
+	text-align: left;
 }
 
 
@@ -209,13 +171,14 @@ span {
 
 footer {
 	text-align: center;
-	padding-top: 20px;
+	margin-top: 20px;
+	padding:10 0px;
 	clear: both;
+	border-top: 1px solid black
 }
 
 footer a, p {
 	font-size: small;
 	color: black;
 	text-decoration: none;
-	text-align: center;
 }
