@@ -5,9 +5,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-header {
-
-}
 
 /* HEADER */
 .container {
@@ -17,8 +14,8 @@ header {
 	border-bottom: 1px solid gray;
 	text-align: center;
 	padding-bottom: 15px;
-
-	position:relative;
+/*
+	position:relative;*/
 }
 
 
@@ -41,6 +38,10 @@ header {
 
 .nav-menu i {
 	vertical-align: middle;
+}
+
+.nav-menu ul li input i {
+	float: right;
 }
 
 
@@ -119,3 +120,4 @@ footer a, p {
 	text-decoration: none;
 	text-align: center;
 }
+
