@@ -118,7 +118,8 @@ footer a {
 .block2-contenu h2 {
 	text-align: center;
 	color: #EF3340;
-	font-size: 40px;
+	font-size: 30px;
+	font-weight: lighter;
 }
 
 .company-contenu {
