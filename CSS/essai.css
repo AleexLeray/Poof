@@ -1,5 +1,5 @@
 body {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -72,13 +72,13 @@ body {
 }
 
 .search {
-	width:100px;
-	height:12px;
-	background-color: transparent;
-	border: 1px solid gray;
-	color:white;
-	padding: 10px 5px;
-	border-radius: 50px;
+  width: 180px;  /* modifié par Diana */
+  height:12px;
+  background-color: white;
+  border: 1px solid gray;
+  color:gray;
+  padding: 10px 5px;
+  border-radius: 50px;
   margin-left: 30px;
 }
 
