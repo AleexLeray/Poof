@@ -92,6 +92,12 @@ body {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 31f8fdd5810a2f2477cb5bde61d1883e4482de6a
 /*FOOTER*/
 
 footer {
@@ -110,6 +116,7 @@ footer a {
 /*FIN FOOTER*/
 
 
+<<<<<<< HEAD
 
 
 /*COMPANY*/
@@ -144,3 +151,49 @@ footer a {
 	color : #686872;
 	text-align: align;
 }
+=======
+/*CONTACT*/
+
+section {
+display: inline-flex;
+margin: 50px 0 0 8%;
+}
+
+span {
+color: tomato;
+}
+
+.formulaire {
+background-color: white;
+border: 1px solid #cccccc;
+
+}
+
+.description {
+margin-top: 40px;
+width: 380px;
+word-break: break-all;
+border-top: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+}
+
+.centre {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 8%;
+}
+
+.btn {
+background-color: tomato;
+border: none;
+padding: 5px;
+border-radius:4px;
+}
+
+#envoyer {
+margin-top: 3px;
+}
+
+/*FIN CONTACT*/
+>>>>>>> 31f8fdd5810a2f2477cb5bde61d1883e4482de6a
