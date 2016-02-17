@@ -44,6 +44,12 @@ body {
 	float: right;
 }
 
+.fa-search {
+	color:red;
+	float:right;
+	padding-left:25px;
+}
+
 
 .search {	
 	width:180px;
