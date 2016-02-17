@@ -111,3 +111,41 @@ footer a {
 }
 
 /*FIN FOOTER*/
+
+
+
+
+
+
+/*PAGE PRODUITS*/
+
+.block2-contenu {
+    padding: 30px 0;
+}
+
+.checkboxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 3% 20%;
+    padding: 20px 40px;
+    background-color: #F0F0F0;
+    color: #686872;
+}
+
+    .checkboxes-spaces {
+        padding: 15px 20px;
+        background-color: #FFFFFF;
+    }
+
+.container-card {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: auto;
+    margin: 0 10%;
+}
+
+    .container-form h2 {
+        text-align: center;
+    }
