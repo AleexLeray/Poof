@@ -1,0 +1,182 @@
+<<<<<<< HEAD
+=======
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/*HEADER*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.container1 {
+  width: 85%;
+}
+
+.block1 {
+  text-align: center;
+  padding-bottom: 5px;
+  background-color: #F0F0F0;
+}
+
+.block1 img {
+  padding-top: 15px;
+}
+
+.block1 h1 {
+  font-size: 18px;
+  margin-top: 0px;
+  color: #2D2D37;
+  padding-bottom: 15px;
+}
+
+/*FIN HEADER*/
+
+
+
+
+
+/*NAVBAR*/
+
+.container2 {
+  width: 15%;
+  height: 100vh;
+  background-color: #2D2D37;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-size: 15px;
+  color: white;
+}
+
+.blockdroite1 {
+
+}
+
+.blockdroite1 ul {
+  list-style-type: none;
+}
+
+.blockdroite1 ul li {
+  margin-top: 20px;
+
+}
+
+.blockdroite1 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.search {
+	width:100px;
+	height:12px;
+	background-color: transparent;
+	border: 1px solid gray;
+	color:white;
+	padding: 10px 5px;
+	border-radius: 50px;
+  margin-left: 30px;
+}
+
+.fa-search {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+/*FIN NAVBAR*/
+
+
+/*FOOTER*/
+
+footer {
+  width: 85%;
+  height: 60px;
+  background-color: #F0F0F0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color:  #2D2D37;
+}
+
+/*FIN FOOTER*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOMULAIRES*/
+section {
+display:flex;
+flex:1 1;
+justify-content: space-around;
+}
+span {
+color:  #EF3340;
+}
+aside {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+aside p {
+margin:0;
+}
+.formulaire {
+background-color: white;
+border: 1px solid #cccccc;
+}
+.centre {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 8%;
+}
+.description {
+margin-top: 40px;
+width: 380px;
+word-wrap: break-word;
+hyphens: auto;
+border-top: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+font-weight:lighter;
+font-style: italic;
+}
+.contact {
+margin-bottom: 40px;
+line-height: 8px;
+font-size: 14px;		
+}
+.btn {
+background-color: tomato;
+border: none;
+padding: 5px;
+border-radius:4px;
+}
+#envoyer {
+	margin-top: 3px;
+}
+.btn {
+	background-color: tomato;
+	border: none;
+	padding: 5px;
+	border-radius:4px;
+}
+/*FIN CONTACT*/
+>>>>>>> 4045498e96e5e7b7b8301f9841351feb8ef8c171
