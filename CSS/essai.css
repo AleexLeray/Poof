@@ -95,12 +95,14 @@ body {
 /*FOOTER*/
 
 footer {
-  width: 85%;
-  height: 60px;
-  background-color: #F0F0F0;
-  text-align: center;
-  padding-top: 20px;
-}
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 width: 85%;
+	 height: 80px;
+	 background-color: #F0F0F0;
+	 text-align: center;
+	}
 
 footer a {
   text-decoration: none;
@@ -115,22 +117,21 @@ footer a {
 
 .block2-contenu h2 {
 	text-align: center;
-	color: #686872;
+	color: #EF3340;
 	font-size: 40px;
 }
 
 .company-contenu {
-	width: 85%;
-	text-align: center;
-	margin-left: 85px;
-	margin-top: 50px;
-	margin-bottom: 10vh;
-
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
 }
 
 .company-contenu img {
 	width: 50%;
-
 }
 
 .company-contenu h3 {
@@ -141,7 +142,6 @@ footer a {
 
 .company-contenu p {
 	color : #686872;
-	text-align: align;
+	text-align: center;
 }
-
 /*FIN COMPANY*/
