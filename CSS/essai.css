@@ -2,6 +2,11 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+
+
+
+/*HEADER*/
+
 .container {
   display: flex;
   flex-direction: row;
@@ -28,6 +33,14 @@ body {
   color: #2D2D37;
   padding-bottom: 15px;
 }
+
+/*FIN HEADER*/
+
+
+
+
+
+/*NAVBAR*/
 
 .container2 {
   width: 15%;
@@ -74,6 +87,10 @@ body {
   vertical-align: middle;
 }
 
+/*FIN NAVBAR*/
+
+
+
 
 
 
@@ -92,3 +109,5 @@ footer a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
+/*FIN FOOTER*/
