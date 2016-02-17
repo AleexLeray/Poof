@@ -51,16 +51,7 @@ body {
 }
 .contact-list h2 {
 	font-weight: lighter;
-	margin-right: 15px;
-	padding-right: 2px;
-	font-style:italic;
-	border-bottom: 1px dashed #2D2D37;
-}
-.contact-list p {
-	color: #ffffff;
-}
-.contact-list p:hover {
-	color:#EF3340;
+	color: #EF3340;
 }
 
 /*FIN SOUS HEADER*/
