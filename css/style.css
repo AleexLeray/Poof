@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	font-family: 'Raleway', sans-serif;
 }
@@ -82,6 +83,51 @@ display:flex;
 justify-content: center;
 color: #686872;
 padding-top: 20px;
+=======
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* HEADER */
+
+
+
+.container {
+	width:100%;
+	border-bottom: 1px solid gray;
+	text-align: center;
+
+	position:relative;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.logo {
+	width: 150px;
+}
+
+
+
+
+
+/*FOMULAIRES*/
+
+
+
+
+
+section {
+	display:flex;
+	flex:1 1;
+	justify-content: space-around;
+>>>>>>> flo
 }
 span {
 color:  #EF3340;
@@ -95,6 +141,7 @@ aside p {
 margin:0;
 }
 .formulaire {
+<<<<<<< HEAD
 background-color: white;
 border: 1px solid #cccccc;
 }
@@ -104,6 +151,27 @@ flex-direction: column;
 justify-content: space-between;
 margin-left: 8%;
 }
+=======
+	background-color: white;
+	border: 1px solid #cccccc;
+}
+
+#envoyer {
+	margin-top: 3px;
+}
+
+.btn {
+	background-color: tomato;
+	border: none;
+	padding: 5px;
+	border-radius:4px;
+}
+
+
+/*Description et contact*/
+
+
+>>>>>>> flo
 .description {
 margin-top: 40px;
 width: 380px;
@@ -114,6 +182,7 @@ border-bottom: 1px solid #aaaaaa;
 font-weight:lighter;
 font-style: italic;
 }
+<<<<<<< HEAD
 .contact {
 margin-bottom: 40px;
 line-height: 8px;
@@ -126,3 +195,103 @@ padding: 5px;
 border-radius:4px;
 }
 /*FIN CONTACT*/
+=======
+
+.centre {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+/* MENU */
+
+
+
+
+.menu-fixe {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-menu {
+	display:inline;
+	text-align: right;
+}
+
+.nav-menu ul {
+	margin: 0;
+}
+
+.nav-menu ul li{
+	display: inline-block;
+	padding: 10px 30px 0 0px;
+}
+
+.nav-menu i {
+	vertical-align: middle;
+}
+
+
+.search {	
+	width:180px;
+	height:12px;
+	background-color: transparent;
+	border: 1px solid gray;
+	color:gray;
+	padding: 10px 15px;
+	border-radius: 50px;
+	margin-top: 5px;
+	margin-left: 00px;
+}
+
+.right-menu {
+	width:230px;
+	padding-left: 10px;
+	background-color: transparent;
+	border-left: 1px solid gray;
+	line-height: 25px;
+	margin-top:15px;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	padding:10 0px;
+	clear: both;
+	border-top: 1px solid black
+}
+
+footer a, p {
+	font-size: small;
+	color: black;
+	text-decoration: none;
+}
+>>>>>>> flo
