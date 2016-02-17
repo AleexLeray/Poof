@@ -88,12 +88,18 @@ span {
 
 
 
-/* navigation */
+
+
+/* MENU */
 
 
 
 
-
+.menu-fixe {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+}
 
 .nav-menu {
 	display:inline;
@@ -126,24 +132,8 @@ span {
 	margin-left: 00px;
 }
 
-
-
-
-
-
-
-/* MENU */
-
-
-
-
-
-
-
-
 .right-menu {
 	width:230px;
-	height:300px;
 	padding-left: 10px;
 	background-color: transparent;
 	border-left: 1px solid gray;
