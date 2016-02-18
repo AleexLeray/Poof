@@ -2,6 +2,10 @@
 
 }
 
+ul li {
+	text-decoration: none;
+}
+
 strike {
 	font-size:22px;
 }
@@ -22,10 +26,7 @@ strike {
 	color:#686872;
 }
 
-
 .img-star {
-	/*width:55%;*/
-/*	moche - border-top: 1px solid #686872 ;*/
 	height: 30%;
 	height:auto; /* sinon, sans ça : c'est trop grand*/
 	padding-right: 35px;
@@ -33,8 +34,7 @@ strike {
 }
 
 .img-star2 {
-/*	width:40%;*/
-	height:auto%;
+	height:auto;
 	flex: 0 0 40%;
 }
 
@@ -98,10 +98,151 @@ strike {
 }
 
 /*
-#color1 {
+#couleurs
+
 Navbar : #2D2D37
 Hover : #EF3340
 Fond : #F0F0F0
 Ecriture : #686872
 }
 */
+
+.topbar {
+	display:none;
+}
+
+
+
+/* = = = = = = = = = RESPONSIVE = = = = = = = =*/
+@media all and (max-width: 720px) {
+
+	/*  cf. essai.css, .container1 : width: 85% >> souci! il reste 15% */
+	.container1 {
+		width: 100%;
+	}
+
+	.block1 {
+		display: none;
+	}	
+
+	.star-band {
+		font-size: 12px;
+	}
+
+	.header__logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header__logo img {
+		width: 128px;
+		height: auto;
+		vertical-align: middle;
+		z-index:0;
+	}
+
+	.header__icon {	
+		position: relative;
+		display: block;
+		float: right;
+		width: 60px;
+		height: 60px;
+		} 
+
+  	.header__icon:before {
+		content:'';
+		cursor:pointer;
+		position: absolute;
+		display: block;
+		width: 1.5rem;
+		height: 0;
+		top:12px;
+		right: 15px;
+		background-color: blue;
+		box-shadow: 0 10px 0 1px white, 
+		0 16px 0 1px white, 
+		0 22px 0 1px white,
+		0 28px 0 1px white;
+		}
+
+		.container {
+			padding-top: 60px;
+		}
+
+		.container2 {
+			display: none;
+		}
+
+
+		.topbar {
+			display: flex;
+			position:fixed;
+			left:0;
+			right: 0;
+			top:0;
+			height: 66px;
+			line-height: 66px;
+	    	background-color: pink;
+		}
+
+		.topbar-menu {
+			position:absolute;
+			left:0px;
+			top: 0px;
+			z-index: 1;
+			background-color: transparent;
+			
+			width: 60px;
+			height: 500px;
+			text-indent: -9999px;
+			transition: width 1s;
+    		-webkit-transition: width 1s; 
+		}
+
+		.topbar-menu ul li {
+			list-style-type: none;
+		}
+
+		.topbar-menu ul li a:hover {
+			color:  #EF3340;
+		}
+
+		.topbar-menu ul li a{
+			color:white;
+			font-weight: bold;
+		}
+
+		.topbar-menu:hover {
+			text-indent: 0px;
+			width: 55%;
+			height: 100vh;
+			background: rgba(12, 12, 12, 0.5);
+		}
+
+		.starproduct-item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.star-text h3 {
+			font-size:24px;
+		}
+		
+		.img-star {
+			width: 500px;
+			padding-right: 0px;
+		}
+
+
+		.img-star2 {
+			padding-left:50px;
+		}
+
+		/*   cf. essai.css > width: 85% et ça pose pb en responsive */
+		footer {
+			width: 100%;
+		}
+}
+
