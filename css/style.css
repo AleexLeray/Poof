@@ -1,3 +1,9 @@
+/*Importation de la police*/
+
+@import url("font.css"); 
+
+
+
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #ffffff;
@@ -36,7 +42,7 @@ body {
   padding-bottom: 15px;
 }
 
-/*FIN HEADER*/
+/*FIN HEADER
 
 
 
@@ -86,6 +92,12 @@ body {
 
 .blockdroite1 ul li {
   margin-top: 20px;
+}
+
+.blockdroite1 ul li:hover {
+	text-decoration: underline;
+	color: #EF3340;
+	background-color: #EF3340;
 }
 
 .blockdroite1 ul li a {
@@ -202,17 +214,11 @@ margin-bottom: 40px;
 line-height: 8px;
 font-size: 14px;		
 }
-.btn {
-background-color: tomato;
-border: none;
-padding: 5px;
-border-radius:4px;
-}
 #envoyer {
 	margin-top: 4px;
 }
 .btn {
-	background-color: tomato;
+	background-color:#EF3340;
 	border: none;
 	padding: 5px;
 	border-radius:4px;
