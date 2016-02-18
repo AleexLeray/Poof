@@ -128,6 +128,7 @@ footer a {
 
     .block2-contenu h2 {
         color: #EF3340;
+        text-align: center;
     }
 
 .checkboxes {
@@ -159,6 +160,8 @@ footer a {
     height: auto;
 }
 
-    .container-form h2 {
-        text-align: center;
-    }
+.container-form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
