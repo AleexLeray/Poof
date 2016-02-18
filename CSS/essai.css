@@ -119,7 +119,11 @@ footer a {
 
 
 
-/*PAGE PRODUITS*/
+/*---------------------------
+
+    $PAGE PRODUITS
+
+---------------------------*/
 
 .block2-contenu {
     padding: 30px 0;
@@ -131,21 +135,28 @@ footer a {
         text-align: center;
     }
 
+
+.container-form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
 .checkboxes {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
-    padding: 30px 150px;
+    margin: 30px 0px;
     color: #686872;
 }
 
     .checkboxes-spaces {
-        padding: 0px 15px 20px 20px;
+        margin: 0px 40px 20px 40px;
         background-color: #FFFFFF;
     }
 
     .square-style {
-        margin: 10px auto;
+        margin: 15px auto;
      }
 
     .square-style label {
@@ -160,8 +171,93 @@ footer a {
     height: auto;
 }
 
-.container-form {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+/* FIN CSS */
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media all and (min-width:980px) {
+    .card .mask {
+        transition: all 0.6s ease-in-out;
+        opacity: 0;
+    }
+
+    .card:hover .mask {
+        bottom: 0px;
+        opacity: 1;
+        transition: all 0.6s ease-in-out;
+    }
+    
+    .card img {
+         max-height: 260px;
+        object-position: 100% 10%;
+    }
+}
+
+
+@media all and (max-width:980px) {
+    .container1, footer {
+        width: 100%;
+    }
+    
+    .container-card {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        }
+    
+        .card {
+            width: 100%;
+            flex-basis: 100%;
+        }
+    
+            .card img {
+                height: 300px;
+                width: 100%;
+                object-fit: cover;
+                object-position: 100% 10%;
+            }
+    
+    .container2 {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+@media all and (max-width:720px) {
+    .container1, footer {
+        width: 100%;
+    }
+    
+    .container-card {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        }
+    
+    .card {
+        width: 100%;
+        flex-grow: 1;
+        flex-basis: 100%;
+    }
+    
+    .card img {
+        max-height: 280px;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .container2, .checkboxes, .btn-filtrer {
+        display: none;
+    }
+    
 }

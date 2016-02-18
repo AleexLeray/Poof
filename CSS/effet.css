@@ -3,22 +3,20 @@
     position: absolute;
     bottom: 0;
     background-color: rgba(239,51,64,0.3);
-    transition: all 0.6s ease-in-out;
-    opacity: 0;
-}
-
-.card:hover .mask {
-    bottom: 0px;
-    opacity: 1;
-    transition: all 0.6s ease-in-out;
 }
 
 
-.mask h4 {
-    margin: 40px 15px 5px 15px;
-}
+    .mask h4 {
+        margin: 30px 15px 5px 25px;
+    }
 
-.mask p {
-    font-size: 10pt;
-    margin: 5px 15px 40px 15px;
+    .mask p {
+        font-size: 10pt;
+        margin: 5px 15px 30px 25px;
+    }
+
+.card-info {
+    display: inline-block;
+    width: 200px;
+    height: auto;
 }
