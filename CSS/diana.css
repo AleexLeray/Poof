@@ -28,7 +28,7 @@ strike {
 /*	moche - border-top: 1px solid #686872 ;*/
 	height: 30%;
 	height:auto; /* sinon, sans ça : c'est trop grand*/
-	padding-right: 30px;
+	padding-right: 35px;
 	flex: 0 0 55%;
 }
 
@@ -64,7 +64,7 @@ strike {
 }
 
 .txt2 {
-	flex-grow: 2;
+	flex: 0 0 55%;
 	text-align: right; 
 	padding-right: 20px;
 }
