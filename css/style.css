@@ -152,8 +152,6 @@ section {
 display:flex;
 justify-content: center;
 align-content: center;
-min-width:700px;
-flex-wrap: wrap;
 color: #686872;
 margin-bottom: 10px;
 }
@@ -228,18 +226,33 @@ border-radius:4px;
 
 
 
-
-
-@media all and (width:980px){
+@media all and (max-width:980px){
 	.container2 {
 		display: none;
 	}
 	.container1 {
 		width: 100%;
 	}
-	header {
-	}
 	footer {
 		width: 100%;
+	}
+}
+
+@media all and (max-width:720px){
+	section {
+		flex-direction:column-reverse;
+	}
+	aside {
+		margin: auto;
+	}
+	.centre {
+		margin: auto;
+	}
+	.description {
+		width: auto;
+	}
+	.contact {
+		margin: 10px;
+		line-height: 15px;
 	}
 }
