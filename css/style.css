@@ -1,6 +1,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #ffffff;
+	overflow: hidden;
 }
 
 
@@ -250,9 +251,13 @@ border-radius:4px;
 	}
 	.description {
 		width: auto;
+		padding: 0px 15px;
 	}
 	.contact {
-		margin: 10px;
+		margin:auto;
 		line-height: 15px;
+	}
+	h2 {
+		margin-bottom: 0;
 	}
 }
