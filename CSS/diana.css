@@ -2,15 +2,16 @@
 
 }
 
+strike {
+	font-size:22px;
+}
+
 .starproduct {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: orange;
 }
 
 .starproduct-item {
@@ -19,30 +20,29 @@
 	width: 100%;
 	height: auto;
 	color:#686872;
-	background-color: yellow;
-}
-
-.starproduct-item:hover {
-
 }
 
 
 .img-star {
-	width:65%;
+	/*width:55%;*/
+/*	moche - border-top: 1px solid #686872 ;*/
+	height: 30%;
 	height:auto; /* sinon, sans ça : c'est trop grand*/
+	padding-right: 30px;
+	flex: 0 0 55%;
 }
 
 .img-star2 {
-	width:40%;
+/*	width:40%;*/
 	height:auto%;
+	flex: 0 0 40%;
 }
 
 
-
 .star-band {
-	background-color: #2D2D37;
+	background-color: white;
 	width: 100%;
-	color:#F0F0F0;
+	color:#EF3340;
 	letter-spacing: 1em;
 	height: 60px;
 	display:flex;
@@ -50,14 +50,23 @@
 	align-items: center;
 }
 
+.promo{
+	background-color: #2D2D37;
+	color:#F0F0F0;
+}
+
+
 .star-text {
 	background:#F0F0F0;
-	text-align: right;
-	padding-right: 20px;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 20px;
 }
 
 .txt2 {
 	flex-grow: 2;
+	text-align: right; 
+	padding-right: 20px;
 }
 
 .star-text h3 {
@@ -68,8 +77,6 @@
 	color:#2D2D37;
 	text-decoration: none;
 }
-#686872
-
 
 
 .old-price {
