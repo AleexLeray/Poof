@@ -1,3 +1,6 @@
+@import url("font.css");
+
+
 body {
 	font-family: 'Raleway', sans-serif;
 }
@@ -428,3 +431,27 @@ textarea {
     }
 
 }
+
+/*FIN PRODUITS*/
+
+
+
+
+
+/*CODE POURRI A RAJOUTER*/
+
+.mentions span {
+	color: #EF3340;
+}
+.mentions span:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.mentions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin:0 15px;
+}
+
+/*FIN MENTIONS*/
