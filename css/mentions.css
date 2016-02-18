@@ -1,3 +1,5 @@
+
+
 /*Importation de la police*/
 
 @import url("font.css"); 
@@ -8,6 +10,40 @@ body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+/*CODE POURRI A RAJOUTER*/
+
+.mentions span {
+	color: #EF3340;
+}
+.mentions span:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.mentions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin:0 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,14 +84,14 @@ body {
 
 /*SOUS HEADER*/
 
-.contact-list {
+.titre {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	position: relative;top:10px;
+	margin-bottom: 10px;
 }
-.contact-list h2 {
+.titre h2 {
 	font-weight: lighter;
 	color: #EF3340;
 }
