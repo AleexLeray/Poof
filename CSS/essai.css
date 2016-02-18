@@ -146,3 +146,140 @@ footer a {
 	text-align: center;
 }
 /*FIN COMPANY*/
+
+
+
+
+
+/*SOUS HEADER*/
+
+.contact-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	position: relative;top:10px;
+}
+.contact-list h2 {
+	font-weight: lighter;
+	color: #EF3340;
+}
+
+/*FIN SOUS HEADER*/
+
+
+
+
+
+/*FOMULAIRES*/
+section {
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	color: #686872;
+	margin-bottom: 170px;
+}
+
+span {
+	color: #EF3340;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+aside p {
+	margin: 4px 0;
+}
+
+input{
+	background-color: white;
+	border: 1px solid #cccccc;
+	width: 250px;
+}
+
+textarea {
+	height: 100px;
+	width:250px;
+}
+
+.large-form input {
+	height: 100px;
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+.centre {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 8%;
+}
+
+.description {
+	margin-top: 40px;
+	width: 380px;
+	word-wrap: break-word;
+	hyphens: auto;
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+	font-weight:lighter;
+	font-style: italic;
+}
+
+.contact {
+	margin-bottom: 40px;
+	line-height: 8px;
+	font-size: 14px;
+}
+
+#envoyer {
+	margin-top: 4px;
+}
+
+.btn {
+	background-color: #EF3340;
+	border: none;
+	padding: 5px;
+	border-radius:4px;
+	color: #ffffff;
+}
+
+@media all and (max-width:980px){
+	.container2 {
+		display: none;
+	}
+	.container1 {
+		width: 100%;
+	}
+	footer {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:720px){
+	section {
+		flex-direction:column-reverse;
+	}
+	aside {
+		margin: auto;
+	}
+	.centre {
+		margin: auto;
+	}
+	.description {
+		width: auto;
+		padding: 0px 15px;
+	}
+	.contact {
+		margin:auto;
+		line-height: 15px;
+	}
+	h2 {
+		margin-bottom: 0;
+	}
+}
+
+/*FIN FORMULAIRE*/
