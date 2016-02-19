@@ -99,6 +99,8 @@ body {
 /*FOOTER*/
 
 footer {
+	 position: fixed;
+	 bottom: 0;
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
@@ -111,6 +113,13 @@ footer {
 footer a {
   text-decoration: none;
   color:  #2D2D37;
+}
+
+
+@media all and (max-height: 700px) {
+	footer {
+		position: relative;
+	}
 }
 
 /*FIN FOOTER*/
@@ -182,7 +191,7 @@ section {
 	justify-content: center;
 	align-content: center;
 	color: #686872;
-	margin-bottom: 170px;
+	margin-bottom: 10px;
 }
 
 span {
