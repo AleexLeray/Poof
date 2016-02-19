@@ -56,17 +56,12 @@ body {
   color: white;
 }
 
-.blockdroite1 {
-
-}
-
 .blockdroite1 ul {
   list-style-type: none;
 }
 
 .blockdroite1 ul li {
   margin-top: 20px;
-
 }
 
 .blockdroite1 ul li a {
@@ -88,6 +83,11 @@ body {
 .fa-search {
   font-size: 25px;
   vertical-align: middle;
+}
+
+.fa-shopping-cart {
+	font-size: 20px;
+	font-weight: lighter;
 }
 
 /*FIN NAVBAR*/
