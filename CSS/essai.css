@@ -485,14 +485,14 @@ strike {
 }
 
 .img-star {
-	height: 30%;
-	height:auto;
+	
+	height:475px;
 	padding-right: 35px;
 	flex: 0 0 55%;
 }
 
 .img-star2 {
-	height:auto;
+	height:250px;
 	flex: 0 0 40%;
 }
 
