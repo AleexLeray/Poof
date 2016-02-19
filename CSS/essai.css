@@ -576,7 +576,10 @@ strike {
 	}
 
 	.star-band {
+
 		font-size: 12px;
+		height:auto;
+
 	}
 
 	.header__logo {
